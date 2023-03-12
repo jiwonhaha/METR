@@ -1,6 +1,6 @@
 # dataset settings
-dataset_type = 'opera.CocoPoseDataset'
-data_root = '/dataset/public/coco/'
+dataset_type = 'NHPDataset'
+data_root = 'monkey_dataset/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 # train_pipeline, NOTE the img_scale and the Pad's size_divisor is different
@@ -82,21 +82,22 @@ test_pipeline = [
         ])
 ]
 data = dict(
-    samples_per_gpu=2,
+    samples_per_gpu=1,
     workers_per_gpu=2,
     train=dict(
         type=dataset_type,
-        ann_file=data_root + 'annotations/person_keypoints_train2017.json',
-        img_prefix=data_root + 'images/train2017/',
+        ann_file=data_root + 'cocoMonkeyTrain.json',
+        img_prefix=data_root+ 'train',
         pipeline=train_pipeline),
     val=dict(
         type=dataset_type,
-        ann_file=data_root + 'annotations/person_keypoints_val2017.json',
-        img_prefix=data_root + 'images/val2017/',
+        ann_file=data_root+'cocoMonkeyValV.json',
+        img_prefix=data_root+'val',
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'annotations/person_keypoints_val2017.json',
-        img_prefix=data_root + 'images/val2017/',
+        ann_file=data_root+'cocoMonkeyValV.json',
+        img_prefix=data_root+'val',
         pipeline=test_pipeline))
 evaluation = dict(interval=1, metric='keypoints')
+
