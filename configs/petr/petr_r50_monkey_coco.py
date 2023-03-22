@@ -7,7 +7,7 @@ _base_ = [
 # model
 model = dict(
     type='opera.PETR',
-    backbone=dict(
+    backbone=dict( #backbone network
         type='mmdet.ResNet',
         depth=50,
         num_stages=4,
