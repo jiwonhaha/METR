@@ -46,19 +46,19 @@ Opera relies on several basic packages such as MMCV, MMDetection, etc, so you ne
 
 ### Download dataset
 
-[Open Monkey Challenge Dataset](https://competitions.codalab.org/competitions/34342#learn_the_details)
+- [Open Monkey Challenge Dataset](https://competitions.codalab.org/competitions/34342#learn_the_details)
 
 ### Download annotation file which is converted to COCO keypoint format
 
-[Training Annotation File](https://drive.google.com/file/d/1-8c652RrCyKI0mAor_KPlI_WQ8EMQPYV/view?usp=share_link) 
+- [Training Annotation File](https://drive.google.com/file/d/1-8c652RrCyKI0mAor_KPlI_WQ8EMQPYV/view?usp=share_link) 
         
 
-[Validation Annotation File](https://drive.google.com/file/d/1DZcVRiXCpGsbrfZz9ABFUFs68PNSfgx8/view?usp=share_link) 
+- [Validation Annotation File](https://drive.google.com/file/d/1DZcVRiXCpGsbrfZz9ABFUFs68PNSfgx8/view?usp=share_link) 
          
 
 ### Download checkpoint
 
-[Checkpoint with 12 epochs](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link)
+- [Checkpoint with 12 epochs](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link)
 
 Put dataset, and both annotation files to directory.'monkeyDataset/.'       
 
