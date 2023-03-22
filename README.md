@@ -1,10 +1,10 @@
 ## Introduction
 
-**O**bject **Per**ception & **A**pplication (Opera) is a unified toolbox for multiple computer vision tasks: detection, segmentation, pose estimation, etc.
+This project analysis performance of transformer on **N**on-**H**uman **P**rimates pose estimation task by using transfer learning.
 
-To date, Opera implements the following algorithms:
+To date, this project implements the following algorithms:
 
-- [PETR (CVPR'2022 Oral)](configs/petr)
+- [PETR](configs/petr/petr_r50_monkey_coco.py)
 
 # Installation
 
