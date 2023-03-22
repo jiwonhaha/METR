@@ -6,7 +6,7 @@
 
 | Model | Backbone | Lr schd | mAP  | AP<sup>50</sup> | AP<sup>75</sup> | AP<sup>L</sup> | Config | Download |
 |:-----:|:--------:|:-------:|:----:|:---------------:|:---------------:|:--------------:|:------:|:--------:|
-| PETR  |  R-50    |  100e   | 68.8 |      87.5       |      76.3       |      77.7      | [config](https://github.com/jiwonhaha/finalProject/blob/main/configs/petr/petr_r50_monkey_coco.py) | [Google Drive](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link) |
+| PETR  |  R-50    |  100e   | 83.7 |      98.0       |      94.6       |      84.0      | [config](https://github.com/jiwonhaha/finalProject/blob/main/configs/petr/petr_r50_monkey_coco.py) | [Google Drive](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link) |
 
 ## Citation
 
