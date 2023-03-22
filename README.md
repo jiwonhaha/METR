@@ -8,9 +8,32 @@ To date, Opera implements the following algorithms:
 - [SOIT (AAAI'2022)](configs/soit)
 - [InsPose (ACM MM'2021)](configs/inspose)
 
-## Installation
+# Installation
 
-Please refer to [get_started.md](docs/get_started.md) for installation.
+Opera relies on several basic packages such as MMCV, MMDetection, etc, so you need to install these packages at first.
+
+1. Install `mmcv`
+
+   ```bash
+   cd /ROOT/Opera/third_party/mmcv
+   MMCV_WITH_OPS=1 pip install -e .
+   ```
+
+2. Install `mmdet`
+
+   ```bash
+   cd /ROOT/Opera/third_party/mmdetection
+   pip install -e .
+   ```
+
+3. Install `opera`
+
+   ```bash
+   cd /ROOT/Opera
+   pip install -r requirements.txt
+   pip install -e .
+   ```
+
 
 ## Requirements
 
