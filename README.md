@@ -50,9 +50,11 @@ Opera relies on several basic packages such as MMCV, MMDetection, etc, so you ne
 
 - Download annotation file which is converted to COCO keypoint format
 
-[Training Annotation File](https://drive.google.com/file/d/1-8c652RrCyKI0mAor_KPlI_WQ8EMQPYV/view?usp=share_link)      
+[Training Annotation File](https://drive.google.com/file/d/1-8c652RrCyKI0mAor_KPlI_WQ8EMQPYV/view?usp=share_link) 
+        
 
-[Validation Annotation File](https://drive.google.com/file/d/1DZcVRiXCpGsbrfZz9ABFUFs68PNSfgx8/view?usp=share_link)        
+[Validation Annotation File](https://drive.google.com/file/d/1DZcVRiXCpGsbrfZz9ABFUFs68PNSfgx8/view?usp=share_link) 
+         
 
 - Download checkpoint
 
@@ -60,7 +62,7 @@ Opera relies on several basic packages such as MMCV, MMDetection, etc, so you ne
 
 Put dataset, and both annotation files to directory.'monkeyDataset/.'       
 
-
+       
 - Inference       
 Run this code   
 
