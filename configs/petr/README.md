@@ -2,11 +2,11 @@
 
 ## Results and Models
 
-### COCO
+### Open Monkey Challenge Dataset
 
-| Model | Backbone | Lr schd | mAP  | AP<sup>50</sup> | AP<sup>75</sup> | AP<sup>M</sup> | AP<sup>L</sup> | Config | Download |
-|:-----:|:--------:|:-------:|:----:|:---------------:|:---------------:|:--------------:|:--------------:|:------:|:--------:|
-| PETR  |  R-50    |  100e   | 68.8 |      87.5       |      76.3       |      62.7      |      77.7      | [config](https://github.com/hikvision-research/opera/blob/main/configs/petr/petr_r50_16x2_100e_coco.py) | [Google Drive](https://drive.google.com/file/d/1HcwraqWdZ3CaGMQOJHY8exNem7UnFkfS/view?usp=sharing) \| [BaiduYun](https://pan.baidu.com/s/1C0HbQWV7K-GHQE7q34nUZw?pwd=u798) |
+| Model | Backbone | Lr schd | mAP  | AP<sup>50</sup> | AP<sup>75</sup> | AP<sup>L</sup> | Config | Download |
+|:-----:|:--------:|:-------:|:----:|:---------------:|:---------------:|:--------------:|:------:|:--------:|
+| PETR  |  R-50    |  100e   | 68.8 |      87.5       |      76.3       |      77.7      | [config](https://github.com/hikvision-research/opera/blob/main/configs/petr/petr_r50_monkey_coco.py) | [Google Drive](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link) |
 
 ## Citation
 
