@@ -62,14 +62,14 @@ Put dataset, and both annotation files to directory monkeyDataset/.
 
 
 - Inference 
-Run this code
+  Run this code
 
 ``` bash
 python3 demo/image_demo.py --out-file (output filename you want to product) (file directory you want to inference) configs/petr/petr_r50_monkey_coco.py (checkpoint directory)
 ```
 
 - Training
-Run this code
+  Run this code
 
 ``` bash
 bash tools/dist_train.sh configs/petr/petr_r50_monkey_coco.py 1 --work-dir monkeyDir --gpu-id 0 --resume-from (checkpoint directory which is start point)
@@ -78,7 +78,7 @@ bash tools/dist_train.sh configs/petr/petr_r50_monkey_coco.py 1 --work-dir monke
 - Evaluation
 
 
-Run this code, it will give you outcome respect to mAP, APL, AP50, AP75.
+  Run this code, it will give you outcome respect to mAP, APL, AP50, AP75.
 
 ``` bash
 bash tools/dist_test.sh configs/petr/petr_r50_monkey_coco.py (checkpoint directory) 1 --eval keypoints
@@ -86,7 +86,7 @@ bash tools/dist_test.sh configs/petr/petr_r50_monkey_coco.py (checkpoint directo
 
 ## Acknowledgement
 
-Opera is an open source project built upon [OpenMMLab](https://github.com/open-mmlab/). We appreciate all the contributors who implement this flexible and efficient toolkits.
+This project is an open source project built upon [OpenMMLab](https://github.com/open-mmlab/). We appreciate all the contributors who implement this flexible and efficient toolkits.
 
 ## Citations
 
