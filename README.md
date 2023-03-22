@@ -4,7 +4,7 @@ This project analysis performance of transformer on **N**on-**H**uman **P**rimat
 
 To date, this project implements the following algorithms:
 
-- [PETR](configs/petr/petr_r50_monkey_coco.py)
+- [NHP PETR](configs/petr/petr_r50_monkey_coco.py)
 
 # Installation
 
