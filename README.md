@@ -50,32 +50,32 @@ Opera relies on several basic packages such as MMCV, MMDetection, etc, so you ne
 
 - Download annotation file which is converted to COCO keypoint format
 
-[Training Annotation File](https://drive.google.com/file/d/1-8c652RrCyKI0mAor_KPlI_WQ8EMQPYV/view?usp=share_link)
+[Training Annotation File](https://drive.google.com/file/d/1-8c652RrCyKI0mAor_KPlI_WQ8EMQPYV/view?usp=share_link)      
 
-[Validation Annotation File](https://drive.google.com/file/d/1DZcVRiXCpGsbrfZz9ABFUFs68PNSfgx8/view?usp=share_link)
+[Validation Annotation File](https://drive.google.com/file/d/1DZcVRiXCpGsbrfZz9ABFUFs68PNSfgx8/view?usp=share_link)        
 
 - Download checkpoint
 
 [Checkpoint with 12 epochs](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link)
 
-Put dataset, and both annotation files to directory.'monkeyDataset/.'
+Put dataset, and both annotation files to directory.'monkeyDataset/.'       
 
 
-- Inference. 
+- Inference       
 Run this code   
 
 ``` bash
 python3 demo/image_demo.py --out-file (output filename you want to product) (file directory you want to inference) configs/petr/petr_r50_monkey_coco.py (checkpoint directory)
 ```
 
-- Training. 
+- Training        
 Run this code        
 
 ``` bash
 bash tools/dist_train.sh configs/petr/petr_r50_monkey_coco.py 1 --work-dir monkeyDir --gpu-id 0 --resume-from (checkpoint directory which is start point)
 ```
 
-- Evaluation.  
+- Evaluation
 
 Run this code, it will give you outcome respect to mAP, APL, AP50, AP75.   
 
