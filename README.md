@@ -9,27 +9,29 @@ Opera relies on several basic packages such as MMCV, MMDetection, etc, so you ne
 Before Installation, clone git repository of mmcv and mmdetection in third_party folder.   
 After that, you can run codes below.
 
+
 1. Install `mmcv`
 
    ```bash
-   cd /ROOT/Opera/third_party/mmcv
+   cd /ROOT/jxp042/third_party/mmcv
    MMCV_WITH_OPS=1 pip install -e .
    ```
 
 2. Install `mmdet`
 
    ```bash
-   cd /ROOT/Opera/third_party/mmdetection
+   cd /ROOT/jxp042/third_party/mmdetection
    pip install -e .
    ```
 
 3. Install `opera`
 
    ```bash
-   cd /ROOT/Opera
+   cd /ROOT/jxp042
    pip install -r requirements.txt
    pip install -e .
    ```
+
 
 
 ## Requirements
