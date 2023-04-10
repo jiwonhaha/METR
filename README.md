@@ -13,21 +13,21 @@ After that, you can run codes below.
 1. Install `mmcv`
 
    ```bash
-   cd /ROOT/jxp042/third_party/mmcv
+   cd /ROOT/finalProject/third_party/mmcv
    MMCV_WITH_OPS=1 pip install -e .
    ```
 
 2. Install `mmdet`
 
    ```bash
-   cd /ROOT/jxp042/third_party/mmdetection
+   cd /ROOT/finalProject/third_party/mmdetection
    pip install -e .
    ```
 
 3. Install `opera`
 
    ```bash
-   cd /ROOT/jxp042
+   cd /ROOT/finalProject
    pip install -r requirements.txt
    pip install -e .
    ```
