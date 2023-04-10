@@ -1,6 +1,6 @@
-# GIt Repository
+# Git Repository
 
-You can find all of the code used for this project from [here](https://git.cs.bham.ac.uk/projects-2022-23/jxp042).
+You can find all of the code used for this project from [Gitlab](https://git.cs.bham.ac.uk/projects-2022-23/jxp042) or [Github](https://github.com/jiwonhaha/finalProject).
 
 # Installation
 
