@@ -62,7 +62,7 @@ After that, you can run codes below.
 
 - [Checkpoint with 12 epochs](https://drive.google.com/file/d/1OwBYLV7y5illjyWfspIq6u76iS0CP568/view?usp=share_link)
 
-Put dataset, and both annotation files to directory.'monkey_dataset/.'       
+Put dataset, and both annotation files to directory.'/ROOT/finalProject/monkey_dataset/.'       
 
        
 ### Inference       
