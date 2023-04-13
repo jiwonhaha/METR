@@ -2,6 +2,14 @@
 
 You can find all of the code used for this project from [Gitlab](https://git.cs.bham.ac.uk/projects-2022-23/jxp042) or [Github](https://github.com/jiwonhaha/finalProject).
 
+# Third Party
+
+1. Clone 'mmcv'
+clone the git repository of [mmcv](https://github.com/open-mmlab/mmcv/tree/30f305810702f47525a28e6a58d52414ecb79d0f) on /ROOT/jxp042/third_party/.
+
+2. Clone 'mmdetection'
+clone the git repository of [mmcv](https://github.com/open-mmlab/mmdetection/tree/ca11860f4f3c3ca2ce8340e2686eeaec05b29111) on /ROOT/jxp042/third_party/.
+
 # Installation
 
 Opera relies on several basic packages such as MMCV, MMDetection, etc, so you need to install these packages at first.
